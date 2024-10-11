@@ -1,0 +1,30 @@
+# OpenSource SW Lab 6 
+
+## 1. Version Control and Collaboration
+Version control allows multiple people to work on a project by tracking changes over time. It manages source code history and facilitates collaboration by merging changes from different contributors.
+
+## 2. Changes vs Snapshots
+- **Change**: A modification to files.
+- **Snapshot**: A record of the state of the project at a particular moment. Git stores snapshots rather than individual changes.
+
+## 3. Types of Version Control
+- **Local**: Tracks changes on a single machine.
+- **Centralized**: One central server holds the main repository.
+- **Distributed**: Every user has a full copy of the repository.
+
+## 4. Installing Git
+To install Git:
+- Download it from the official website or use a package manager (e.g., `apt`, `brew`).
+
+## 5. Git Configuration
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+## 6. Git Commands
+ $ git init: Initialize a repository.
+ $ git add: Stage changes.
+ $ git commit: Save changes with a message.
+ $ git status: Check the status of the repository.
+ $ git log: View commit history.
+ $ git push: Upload changes to a remote repository.
